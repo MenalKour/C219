@@ -15,8 +15,8 @@ app.get("/", (req, res) => {
 });
 
 io.on("connection", (socket) => {
-    socket.on("message", (message) => {
-        io.emit("createMessage", message);
+    socket.on("message", (message, user) => {
+        io.emit("createMessage", message, user);
     });
 });
 
