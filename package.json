@@ -13,6 +13,7 @@
     "express": "^4.17.1",
     "peer": "^0.6.1",
     "socket.io": "^4.1.3",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "yarn.lock": "^0.0.1-security"
   }
 }
